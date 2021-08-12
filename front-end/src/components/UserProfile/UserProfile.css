@@ -1,0 +1,91 @@
+.profile{
+    height: 700px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+.logout{ 
+    width: 100px;
+    height: 40px;
+    justify-content: left;
+    background-color: #E20814;
+      border-radius: 22px;
+      box-shadow:  0px 0px 30px 0px rgb(0 0 0 / 40%);
+      border-bottom: 2px solid rgb(155, 82, 101) ;
+      border-top: transparent;
+      border-left: transparent;
+      border-right: 2px solid rgb(155, 82, 101);
+      font-size: 1.125em;
+      text-align: center; 
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.logout:hover{
+    color: #fff;
+    background-color: #343653;
+   
+}
+.signed{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px  0 0 75%;
+    color: #212529;
+}
+.add{ 
+    width: 300px;
+    height: 40px;
+    justify-content: left;
+    background-color: #E20814 ;
+      border-radius: 22px;
+      box-shadow:  0px 0px 30px 0px rgb(0 0 0 / 40%);
+      border-bottom: 2px solid #70080d ;
+      border-top: transparent;
+      border-left: transparent;
+      border-right: 2px solid #70080d ;
+      font-size: 1.125em;
+      text-align: center; 
+    font-weight: 700;
+    color: #343653;
+    margin: 50px 0 0 100px;
+}
+.add:hover{
+    color: #fff;
+    background-color: #343653;
+   
+}
+.link{
+    color: rgb(255, 255, 255);
+   
+}
+
+.link:hover{
+    color: #fff;
+   
+}
+.prg{
+width: 60%;
+text-align: left;
+padding: 30px;
+border-radius: 50px;
+    background-color: #3c3535a8;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 40%);
+    border-bottom: 2px solid rgba(234,234,237,.26);
+    color: #fff;
+    height: 500px;
+    margin: -15% 0 0 -33%;
+}
+.imgback{
+    height: 480px;
+    width: 900px;
+    margin: 13% 0 0 25%;
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 40%);
+    border-bottom: 2px solid rgba(234,234,237,.26);
+    background-image: url("https://www.dondusang.net/wp-content/uploads/2020/04/back-1500x430.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 0;
+}

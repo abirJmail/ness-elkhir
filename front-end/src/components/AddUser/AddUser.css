@@ -1,0 +1,116 @@
+.signup-form {
+	width: 550px;
+	margin: 0 auto;
+	padding: 30px 0;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.register-form
+{
+    background-color: #3c3535a8;
+}
+.input-group-text{
+    background-color: transparent!important;
+    border: none !important;
+	color: #999 !important;
+
+}
+.heading
+{
+    color:  #343653!important;
+    font-weight: bold;
+    font-size: 50px;
+}
+.subtitle
+{
+    color: #343653;
+}
+.radiolabels
+{
+    font-size: 16px;
+}
+.labels
+{
+    font-size:18px;
+    font-weight: bold;
+}
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+    font-size: 18px;
+}
+
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+
+
+.signup-form form {
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	margin-bottom: 15px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: rgb(88, 86, 86);
+	text-decoration: underline;
+}
+
+.labels{
+    color: whitesmoke;
+}
+.btn {
+    background-color: #E20814 !important ;
+      width: 100px!important ;
+      height: 40px!important ;
+      border-radius: 22px !important;
+      box-shadow:  0px 0px 30px 0px rgb(0 0 0 / 40%) !important;
+      border-bottom: 2px solid #70080d !important;
+      border-top: transparent !important;
+      border-left: transparent !important;
+      border-right: 2px solid #70080d !important;
+      font-weight: 700 !important;
+      color: rgb(255, 255, 255)!important;
+}
+.btn:hover{
+    color: #fff !important;
+    background-color: #343653 !important;
+}
+.btn-primary:hover{
+    color: #fff !important;
+    background-color: #343653 !important;
+}
+.btn-lg:hover{
+    color: #fff !important;
+    background-color: #343653 !important;
+}
+.btnGroupe{
+display: flex;
+justify-content: space-evenly;
+}

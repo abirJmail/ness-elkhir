@@ -1,0 +1,204 @@
+.Homeone{
+    height: 480px !important;
+    background-image: url("http://www.cnts.tn/media/k2/items/cache/867519228d1d5325856fc61d710ded0e_L.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8% 2% 2% 2%;
+    border-radius: 50px;
+    margin: 22px;
+    
+}
+.btmin{
+    width: 35% !important;
+    height: 100% !important;
+    margin: 10px 0 0 0;
+}
+.para{
+
+    width: 35% !important;
+    height: 100% !important;
+    color: #343653;
+    
+}
+.login{
+    background-color: transparent;
+}
+.SIGNIN{
+    width: 180px; ;
+    height: 40px; ;
+    color: #E20814 ;
+    font-size: 1.125em;
+    text-align: center; 
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+.SIGNUP{
+    background-color: #E20814 ;
+      width: 140px; ;
+      height: 40px; ;
+      border-radius: 22px;
+      box-shadow:  0px 0px 30px 0px rgb(0 0 0 / 40%);
+      border-bottom: 2px solid #70080d ;
+      border-top: transparent;
+      border-left: transparent;
+      border-right: 2px solid #70080d;
+      font-size: 1.125em;
+      text-align: center; 
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+     
+}
+.SIGNIN :hover
+{
+    color: #343653;
+   
+}
+.UserList{
+    height: 15%;
+    margin: 60px 0 0 20px;
+
+}
+    .btmList{ 
+    width: 60%;
+    height: 100%;
+    justify-content: left;
+    background-color:#E20814 ;
+      border-radius: 22px;
+      box-shadow:  0px 0px 30px 0px rgb(0 0 0 / 40%);
+      border-bottom: 2px solid #70080d ;
+      border-top: transparent;
+      border-left: transparent;
+      border-right: 2px solid #70080d;
+      font-size: 1.125em;
+      text-align: center; 
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.link :hover{
+    color: #fff;
+    background-color: #343653;
+}
+.Hometow{
+    display: flex;
+    height: 200px;
+    margin: 22px;
+}
+.clnone{
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    padding: 40px 0 0 0;
+    background-image: linear-gradient(#E20814 0%, rgb(255, 255, 255) 90%);
+    border-top-left-radius: 22px;
+    border-end-start-radius: 22px;
+}
+
+.clntow{
+    width: 25%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    padding: 40px 0 0 0;
+    background-image: linear-gradient(#b9040d 10%, rgb(255, 255, 255) 90%);
+}
+.clnthree{
+    width: 25%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    padding: 40px 0 0 0;
+    background-image: linear-gradient(#96050c 30%, rgb(255, 255, 255) 90%);
+}
+.clnfore{
+    width: 25%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    padding: 40px 0 0 0;
+    background-image: linear-gradient(#680207 40%, rgb(255, 255, 255) 90%);
+    border-top-right-radius: 22px;
+    border-end-end-radius: 22px;
+}
+.Homethree{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr) ;
+
+    margin: 0 2% 0 2%;
+    border-radius: 50px;
+    background-image: linear-gradient(rgb(255, 255, 255) 10%, rgb(113, 220, 255) 90%);
+    padding: 5px ;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 40%);
+  border-bottom: 2px solid rgba(234,234,237,.26);
+}
+.tow {
+    width: 60%;
+    padding: 30px 0 0 0;
+    grid-column: 2;
+    grid-row: 1 / 4;
+    height: 100%;
+  }
+  .one{
+    padding: 15px;
+    color: #343653;
+    grid-column: 1;
+    grid-row: 1 / 2; 
+  }
+  .three{
+    padding: 15px;
+    color: #343653;
+    grid-column: 1;
+    grid-row: 2 / 3; 
+  }
+  .fore{
+    padding: 15px;
+    color: #343653;
+    grid-column: 1;
+    grid-row: 3 / 4; 
+
+  }
+  .five{
+    padding: 15px;
+    color: #343653;
+    grid-column: 3;
+    grid-row: 1/ 2; 
+
+  }
+  .sex{
+    padding: 15px;
+    color: #343653;
+    grid-column: 3;
+    grid-row: 2 / 3;
+
+  }
+  .seven{
+      color: #343653;
+    padding: 15px;
+    grid-column: 3;
+    grid-row: 3 / 4; 
+  }
+  .zero{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    color: #343653;
+    
+  }
+  .Homefore{
+    background-image: url("https://www.iru.org/sites/default/files/styles/desktop_1x_2000x600/public/2020-03/Alarming%20gap%20in%20global%20response%20to%20COVID-19.jpg?h=22393765&itok=ZovR8VlL");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 8% 2% 2%;
+    border-radius: 50px;
+    margin: 22px;
+  }
+  .Homefive{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 70px 0 0 0;
+    background: linear-gradient(0.25turn, #680207 0%, #96050c 20%, #b9040d 40% ,#E20814 60%,rgb(255, 255, 255) 99%);
+    height: 200px;
+    margin: 22px;
+    border-radius: 22px;
+}
