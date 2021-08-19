@@ -46,9 +46,9 @@ const UserRegister = () => {
       <Form className="REGISTER">
       <Form.Group className="mb-3" controlId="formBasicEmail">
       <Form.Label> Full Name</Form.Label>
-      <Form.Control style={{ width: '80%' , margin:" 0 0 0 10%"}} type="text" placeholder="Enter email"  onChange={(e) => setUsername(e.target.value)} />
+      <Form.Control style={{ width: '80%' , margin:" 0 0 0 10%"}} type="text" placeholder="Enter Full Name"  onChange={(e) => setUsername(e.target.value)} />
       <Form.Label>telephone</Form.Label>
-      <Form.Control style={{ width: '80%' , margin:" 0 0 0 10%"}} type="number" placeholder="Enter email" onChange={(e) => setTelephone(e.target.value)} />
+      <Form.Control style={{ width: '80%' , margin:" 0 0 0 10%"}} type="number" placeholder="Enter Phone" onChange={(e) => setTelephone(e.target.value)} />
       <Form.Label>Email address</Form.Label>
       <Form.Control style={{ width: '80%' , margin:" 0 0 0 10%"}} type="email" placeholder="Enter email"  onChange={(e) => setEmail(e.target.value)} />
       <Form.Text  className="text-muted">

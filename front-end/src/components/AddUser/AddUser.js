@@ -21,6 +21,7 @@ const AddUser = () => {
 })
   const isEdit = useSelector(state => state.isEdit)
   const userId = useSelector(state => state.userId)
+
   const dispatch = useDispatch()
 
   useEffect(() => {
@@ -51,20 +52,21 @@ const AddUser = () => {
         var formIsValid = true;
         var age=parseInt(user.age);
         var phone=parseInt(user.phone);
-        var city=parseInt(user.city);
+        var city=user.city;
+     
         if(age<=18 || age>=60)
         {
             formIsValid=false;
             user.error="Age should be between 18 to 60. Please check the eligibility to donate .";
             alert("Age should be between 18 to 60. Please check the eligibility to donate");
         } 
-        else if(phone.length>8 ||phone.length<8)
+        else if(phone<=9999999)
         {
                 formIsValid=false;
                 user.error="Phone should have 8 number";
                 alert("Phone should have 8 number");
         }
-        else if(city.length<0)
+        else if(city.value=="")
         {
                 formIsValid=false;
                 user.error="your city Please";
@@ -76,7 +78,11 @@ const AddUser = () => {
 
     const PostData = async(e) =>{
         e.preventDefault();
-        if(handleValidation())
+        if(!handleValidation())
+        {
+            alert(user.error);
+        }
+        else
         {
             isEdit  ?dispatch(editUser(user._id, user)) :dispatch(addUser(user));
             alert("Registration successful");
@@ -87,8 +93,7 @@ const AddUser = () => {
 
     return(
                 <div className="signup-form">
-                    <h2 className="heading">Donate Blood : {isEdit ? "Edit User" : "Add New User"}</h2>
-                    <h3 class="subtitle"> Please check the guidelines to donate before submitting the form.</h3>
+                    <h2 className="heading">{isEdit ? "Edit User" : "Add New User"}</h2>
                 <hr />    
                 <form method="POST" className="register-form" id="register-form">
                 <div class="form-group">
@@ -258,12 +263,14 @@ const AddUser = () => {
                             </span>
                         </div>
                         <input 
-                        type="number" 
+                        type="tel"
                         class="form-control" 
+                        maxlength="8" 
+                        pattern="\d{8}"
                         name="phone" 
                         value={user.phone} 
                         onChange={handleInputs}
-                        placeholder="Enter your 10 digit phone number" 
+                        placeholder="Enter your 8 digit phone number" 
                         required="required" />
                     </div>
                 </div>
@@ -310,11 +317,9 @@ const AddUser = () => {
                   {isEdit ? "Edit" : "Add"}
             </button >
           </Link>
-          <Link  to="/">
-          <button  class="btn btn-primary btn-lg" id="register" onClick={() => dispatch(logOut())}>Log Out</button>
-          </Link> 
           </div>
           </form>
+          
          </div>
        
     );

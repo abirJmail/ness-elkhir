@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import ApiCard from '../APICard/ApiCard';
 
 
+
+
 function Home() {
   const [List, setList] = useState([])
   const fetchUser =()=>{
@@ -40,7 +42,7 @@ useEffect(() => {
       </div>
         </div>
         </div>
-        <div className="Hometow" >
+        <div className="Hometow"  >
           <div className="clnone"> <h2>First Time Donors</h2></div>
           <div className="clntow"><h2>Where to give</h2></div>
           <div className="clnthree"><h2>Become a donor</h2></div>
@@ -48,7 +50,7 @@ useEffect(() => {
         </div>
         <div className="Homethree" >
         <div className="zero" ><h2><b>BLOOD DONATION </b>STEPS</h2></div>
-          <div  className="one"><h2>01</h2><img src="https://www.seha.ae/assets/uploads/2021/03/Group-4929.png" /><span>Fill the form</span></div>
+          <div  className="one"><h2>01</h2><img src="https://www.seha.ae/assets/uploads/2021/03/Group-4929.png"  /><span>Fill the form</span></div>
           <div className="tow"><h4></h4><img src="https://www.seha.ae/assets/uploads/2021/03/Group-4703.png"/><span></span></div>
           <div  className="three"><h2>02</h2><img src="https://www.seha.ae/assets/uploads/2021/03/Group-4930.png"/><span>Register with your emirates ID</span></div>
           <div  className="fore"><h2>03</h2><img src="https://www.seha.ae/assets/uploads/2021/03/Group-4931.png"/><span>Medical screening & examination</span></div>
@@ -56,7 +58,7 @@ useEffect(() => {
           <div  className="sex"><h2>05</h2><img src="https://www.seha.ae/assets/uploads/2021/03/Group-4933.png"/><span>Post donation care & instructions</span></div>
           <div  className="seven"><h2>06</h2><img src="https://www.seha.ae/assets/uploads/2021/03/Group-4934.png"/><span>Rest & refreshments</span></div>
         </div>
-        <div className="Homefive"><h1>COVID-19 Statistics</h1></div>
+        <div className="Homefive" ><h1 >COVID-19 Statistics</h1></div>
         <div className="Homefore">
         <h2>Worldometer Coronavirus ,Live statistics ...</h2>
         <ApiCard List={List}/>

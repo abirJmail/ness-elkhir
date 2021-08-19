@@ -1,16 +1,17 @@
 .Carousel{
 width: 50%;
-height:400px ;
-padding: 10px;
+height:90%;
+padding: 15px;
 border-radius: 15px;
-margin: 43px 0 0 0 ;
+
+
 
 }
 
 .userlogin{
 
 width: 90%;
-height:490px ;
+height:400px ;
 display: flex;
 justify-content: space-around;
 padding: 15px;
@@ -41,3 +42,4 @@ padding: auto;
 .text-muted {
      color: #c2c4c7!important; 
 }
+

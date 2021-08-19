@@ -3,6 +3,7 @@ import { Card, Image, Col, Button } from 'react-bootstrap'
 import { useDispatch } from 'react-redux'
 import { deleteUser, getUser, toggleTrue } from "../../JS/actions/UserActionList"
 import { Link } from "react-router-dom"
+import "./UserCard.css"
 
 const UserCard = ({ user }) => {
 

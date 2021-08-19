@@ -46,9 +46,9 @@ function App() {
           <Route exact path="/About" render={() => <About />} />
           <Route exact path="/register" render={() => <UserRegister />} />
           <Route exact path="/login" render={() => <UserLogin />} />
-          <Route exact path="/profile" render={() => <UserProfile user={user}/>} />
+          <Route path="/profile" render={() => <UserProfile user={user}/>} />
           <Route  path="/Hospitals" render={() => <Hospitals/>} />
-          <Route exact exact path="/(Add-User|Edit-User)/"  render={() => <AddUser />} />
+          <Route exact path="/profile/(Add-User|Edit-User)/"  render={() => <AddUser />} />
          <Route  exact path="/User-list" render={() =>  <UsersList setmySearcht={setmySearcht} setmyInput={setmyInput} users={users.filter(
           (el) =>
             el.state.toUpperCase().includes(myInput.toUpperCase().trim()) &&
